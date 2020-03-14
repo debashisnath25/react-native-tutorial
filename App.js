@@ -16,7 +16,7 @@ import persist from "./src/config/store";
 
 const persistStore = persist();
 
-export default class App extends Component<Props> {
+export default class App extends Component{
   render() {
     return (
       <Provider store={persistStore.store}>

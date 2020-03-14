@@ -7,7 +7,7 @@ export const createNewUser = (payload) => {
           dispatch({
             type: "CREATE_USER_LOADING"
           });
-          const response = await fetchApi("/user/create", "POST", payload, 200);
+          const response = await fetchApi("/auth/signup", "POST", payload, 200);
 
           if(response.success) {
             dispatch({

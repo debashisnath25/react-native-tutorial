@@ -73,7 +73,7 @@ const styles = StyleSheet.create({
   }
 });
 
-class Signup extends Component<{}> {
+class Signup extends Component{
 
   goBack() {
       Actions.pop();
@@ -127,7 +127,7 @@ class Signup extends Component<{}> {
             placeholder="Email"
             component={this.renderTextInput} />
         <Field
-            name="password"
+            name="userPassword"
             placeholder="Password"
             secureTextEntry={true}
             component={this.renderTextInput} />

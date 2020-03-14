@@ -124,7 +124,7 @@ class Login extends Component<{}> {
             placeholder="Email"
             component={this.renderTextInput} />
         <Field
-            name="password"
+            name="userPassword"
             placeholder="Password"
             secureTextEntry={true}
             component={this.renderTextInput} />
